@@ -9,6 +9,7 @@ app = FastAPI()
 origins = [
     "http://localhost:5173",  # Frontend URL
     "http://127.0.0.1:5173",  # Frontend URL
+    "https://chat-app-frontend-build.onrender.com",
 ]
 
 app.add_middleware(
